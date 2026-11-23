@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy | E² Solutions</title>
+    <!-- Bootstrap CSS for layout -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- WhatsApp Fixed Widget Start -->
+    <style>
+      .whatsapp-fixed-btn {
+        position: fixed !important;
+        bottom: 80px !important;
+        right: 10px !important;
+        width: 60px;
+        height: 60px;
+        background-color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+        z-index: 999999 !important;
+        transition: transform 0.3s ease;
+        text-decoration: none;
+      }
+
+      .whatsapp-fixed-btn img {
+        width: 35px !important;
+        height: 35px !important;
+        border: none;
+      }
+
+      .whatsapp-fixed-btn:hover {
+        transform: scale(1.1);
+      }
+
+      /* Mobile Devices */
+      @media (max-width: 768px) {
+        .whatsapp-fixed-btn {
+          bottom: 40px !important;
+          right: 10px !important;
+          width: 50px;
+          height: 50px;
+        }
+        .whatsapp-fixed-btn img {
+          width: 30px !important;
+          height: 30px !important;
+        }
+      }
+    </style>
+    <style>
+      :root {
+        --pink: #e91e63;
+        --dark-blue: #1a1f36;
+        --text-main: #333;
+        --text-light: #777;
+        --bg-light: #f8f9fa;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        color: var(--text-main);
+        overflow-x: hidden;
+      }
+
+      /* --- Navbar Styles --- */
+      .navbar-custom {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        padding: 20px 50px;
+        background: #ffffff63;
+      }
+      .navbar-custom .nav-link {
+        color: white !important;
+        font-weight: 500;
+        margin-left: 20px;
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+      .navbar-toggler {
+        border: none;
+      }
+      .navbar-toggler-icon {
+        filter: invert(1);
+      }
+
+      /* --- Privacy Policy Page Specific Styles --- */
+      .page-hero {
+        background-color: var(--dark-blue);
+        padding: 150px 0 80px;
+        text-align: center;
+        color: white;
+      }
+      .page-hero h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+      .page-hero p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        color: #d1d5db;
+      }
+
+      .privacy-container {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 60px 20px;
+      }
+      .privacy-container h3 {
+        color: var(--dark-blue);
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+      .privacy-container p,
+      .privacy-container ul {
+        color: var(--text-light);
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 15px;
+      }
+      .privacy-container ul {
+        padding-left: 20px;
+      }
+      .privacy-container li {
+        margin-bottom: 8px;
+      }
+      .privacy-container a {
+        color: var(--pink);
+        text-decoration: none;
+      }
+      .privacy-container a:hover {
+        text-decoration: underline;
+      }
+
+      /* --- Footer Styles --- */
+      .footer {
+        padding: 60px 0 0px;
+        border-top: 1px solid #eee;
+      }
+      .footer-links a {
+        color: var(--text-main);
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 12px;
+      }
+      .footer-bottom {
+        background-color: var(--dark-blue);
+        color: white;
+        padding: 15px 0;
+        font-size: 0.85rem;
+        margin-top: 50px;
+      }
+
+      /* Mobile & Tablet Responsive */
+      @media (max-width: 768px) {
+        .navbar-custom {
+          padding: 15px 20px;
+        }
+        .navbar-collapse {
+          background-color: rgba(26, 31, 54, 0.95);
+          padding: 20px;
+          border-radius: 10px;
+          margin-top: 15px;
+          text-align: center;
+        }
+        .navbar-custom .nav-link {
+          margin-left: 0;
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+        .page-hero {
+          padding: 120px 20px 60px;
+        }
+        .page-hero h1 {
+          font-size: 2.2rem;
+        }
+        .foot-logo img {
+          width: 300px;
+          height: auto;
+        }
+      }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PS7LNFQXTH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-PS7LNFQXTH");
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/page2_logo.png"
+            alt="Logo"
+            height="40"
+            style="border-radius: 5px"
+          />
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="architectural-solutions.html" class="nav-link"
+                >Architectural</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="offshoring.html" class="nav-link">Offshoring</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-hero">
+      <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Effective Date: 11 November 2026</p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="privacy-container">
+      <p>
+        E² Solutions ("we", "our", or "us") respects your privacy and is
+        committed to protecting your personal information.
+      </p>
+
+      <h3>1. Information We Collect</h3>
+      <p>
+        When you visit our website or submit an enquiry, we may collect personal
+        information such as:
+      </p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Country and location</li>
+        <li>Business or project-related information</li>
+        <li>Website usage information, including cookies and analytics data</li>
+      </ul>
+
+      <h3>2. How We Use Your Information</h3>
+      <p>We may use your information to:</p>
+      <ul>
+        <li>Respond to enquiries and provide requested information</li>
+        <li>Communicate about our products, services and business solutions</li>
+        <li>Provide quotations and project-related assistance</li>
+        <li>Improve our website, services and customer experience</li>
+        <li>Understand website traffic and marketing performance</li>
+        <li>Follow up on enquiries and business opportunities</li>
+      </ul>
+
+      <h3>3. Sharing of Information</h3>
+      <p>
+        We do not sell your personal information. We may share information with
+        trusted service providers who assist us with website hosting, analytics,
+        marketing, communication and business operations, where necessary.
+      </p>
+
+      <h3>4. Cookies and Tracking Technologies</h3>
+      <p>
+        Our website may use cookies and similar technologies to improve website
+        functionality, understand visitor behaviour and measure advertising
+        performance. You may manage cookies through your browser settings.
+      </p>
+
+      <h3>5. Data Security</h3>
+      <p>
+        We take reasonable measures to protect personal information against
+        unauthorized access, loss, misuse or disclosure.
+      </p>
+
+      <h3>6. Data Retention</h3>
+      <p>
+        We retain personal information only for as long as necessary to fulfil
+        the purposes outlined in this policy or to comply with applicable legal
+        requirements.
+      </p>
+
+      <h3>7. Your Privacy Rights</h3>
+      <p>
+        You may request access to, correction of, or deletion of your personal
+        information, or request that we stop using it for marketing purposes,
+        subject to applicable laws.
+      </p>
+
+      <h3>8. Third-Party Services</h3>
+      <p>
+        Our website and advertising activities may involve third-party services
+        such as LinkedIn, Google Analytics and other advertising or analytics
+        platforms. These services may use cookies or similar technologies in
+        accordance with their respective privacy policies.
+      </p>
+
+      <h3>9. Updates to This Privacy Policy</h3>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be
+        published on this page with the updated effective date.
+      </p>
+
+      <h3>10. Contact Us</h3>
+      <p>
+        For questions or requests concerning this Privacy Policy, please
+        contact:
+      </p>
+      <p>
+        <strong>E² Solutions</strong><br />
+        Email: <a href="mailto:info@e2solutions.in">info@e2solutions.in</a
+        ><br />
+        Website:
+        <a href="https://e2solutions.in/" target="_blank"
+          >https://e2solutions.in/</a
+        ><br />
+        UAE Office: Dubai, UAE<br />
+        India Office: Kottayam, Kerala, India
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0 text-md-start foot-logo">
+            <img src="images/page2_logo.png" alt="E2 Solutions" height="100" />
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0 footer-links">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="#">SERVICES</a>
+            <a href="contact.html">CONTACT US</a>
+          </div>
+          <div class="col-md-3 footer-links">
+            <a href="privacy-policy.html">PRIVACY POLICY</a>
+            <a href="#">TERMS & CONDITIONS</a>
+            <a href="#">CAREER</a>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://wa.me/971585861537"
+        class="whatsapp-fixed-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp Chat"
+        />
+      </a>
+      <div class="footer-bottom text-center">
+        © 2026 E² Solutions. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
